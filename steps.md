@@ -110,3 +110,28 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag # Add SEO plugin
 ```
+
+# 5. Creamos nuestro CSS personalizado
+
+Creamos un fichero `/assets/css/style.scss` con el siguiente código
+
+```
+---
+---
+
+@import "{{ site.theme }}";
+```
+
+En este fichero podremos crear a continuación nuestro propio CSS. Por ejemplo podremos insertar fuentes de Google Fonts:
+
+```
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+```
+
+o eliminar los elementos que no nos interesan del theme minimal de Jekyll
+
+```
+.view, footer {
+  display:none;
+}
+```
