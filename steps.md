@@ -81,3 +81,20 @@ Las citas se indican con el símbolo >.
 ```
 > Esto es una cita en Markdown.
 ```
+
+# 3. Configuramos Github Pages
+
+# 4. Elegimos un theme y lo configuramos en el fichero `_config.yml`
+
+Github nos ofrece la posibilidad de elegir entre un [listado de themes de Jekyll](https://pages.github.com/themes/). Aquí encontrarás una descripción detallada de [cómo elegir un theme de Jekyll para tus Github pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll).
+
+El fichero `_config.yml` debe tener el siguiente formato:
+
+```
+title: Jordi Galobart Salvat
+logo: "Jordi Galobart.png"
+description: UX Consultant, Full Stack developer
+theme: jekyll-theme-minimal 
+plugins:
+  - jekyll-seo-tag # Add SEO plugin
+```
