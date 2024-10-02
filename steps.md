@@ -86,15 +86,15 @@ Las citas se indican con el símbolo >.
 
 Accedemos a `settings` del repositorio en Github
 
-[Github > Settings](guithub-settings.png)
+![Github > Settings](guithub-settings.png)
 
 Accedemos a `pages` en el menú lateral de `settings`
 
-[Github > Settings > Pages](guithub-pages.png)
+![Github > Settings > Pages](guithub-pages.png)
 
 Nos aseguramos de que Github Pages estará sincronizado con la rama `main`
 
-[Github > Settings > Pages](guithub-pages-step-1.png)
+![Github > Settings > Pages](guithug-pages-step-1.png)
 
 # 4. Elegimos un theme y lo configuramos en el fichero `_config.yml`
 
